@@ -7,7 +7,7 @@
 Deploy the vulnerable machine! This one, well, it has problems.
 Deploy the virtual machine!
 <br/>
-Answer:No answer needed
+Answer: <u> No answer needed </u>
 
 ## Task 2:
 
@@ -15,19 +15,19 @@ Answer:No answer needed
 
 First, create a basic Ubuntu box (or any other system of your choice). Minimum 4 2GHz cores, 4 GB RAM (8 Recommended) and 30 GB of disk space.
 <br/>
-Answer: No answer needed
+Answer: <u> No answer needed </u>
 
 ### Task 2.2
 
 Next, go ahead and register for a Nessus Home license. This can be used to scan up to 16 IP addresses at a time. Be sure to keep this license information safe, you'll need it for any manual work. Here's the registration link: https://www.tenable.com/products/nessus-home
 <br/>
-Answer: No answer needed
+Answer: <u> No answer needed </u>
 
 ### Task 2.3
 
 Follow the installation instructions on Tenable's website, once Nessus is set up connect the machine that it lives on to the network using your VPN file.
 <br/>
-Answer: No answer needed
+Answer: <u> No answer needed </u>
 
 ## Task 3:
 
@@ -35,49 +35,49 @@ Answer: No answer needed
 
 As we log into Nessus, we are greeted with a button to launch a scan, what is the name of this button?
 <br/>
-Answer: New Scan
+Answer: <u> New Scan </u>
 
 ### Task 3.2:
 
 Nessus allows us to create custom templates that can be used during the scan selection as additional scan types, what is the name of the menu where we can set these?
 <br/>
-Answer: Policies
+Answer: <u> Policies </u>
 
 ### Task 3.3:
 
 Nessus also allows us to change plugin properties such as hiding them or changing their severity, what menu allows us to change this?
 <br/>
-Answer: Plugin Rules
+Answer: <u> Plugin Rules </u>
 
 ### Task 3.4:
 
 Nessus can also be run through multiple 'Scanners' where multiple installations can work together to complete scans or run scans on remote networks, what menu allows us to see all of these installations?
 <br/>
-Answer: Scanners
+Answer: <u> Scanners </u>
 
 ### Task 3.5:
 
 Let's move onto the scan types, what scan allows us to see simply what hosts are 'alive'?
 <br/>
-Answer: Host Discovery
+Answer: <u> Host Discovery </u>
 
 ### Task 3.6:
 
 One of the most useful scan types, which is considered to be 'suitable for any host'?
 <br/>
-Answer: Basic Network Scan
+Answer: <u> Basic Network Scan </u>
 
 ### Task 3.7:
 
 Following a few basic scans, it's often useful to run a scan wherein the scanner can authenticate to systems and evaluate their patching level. What scan allows you to do this?
 <br/>
-Answer: Credentialed Patch Audit
+Answer: <u> Credentialed Patch Audit </u>
 
 ### Task 3.8:
 
 When performing Web App tests it's often useful to run which scan? This can be incredibly useful when also using nitko, zap, and burp to gain a full picture of an application.
 <br/>
-Answer: Web Application Tests
+Answer: <u> Web Application Tests </u>
 
 ## Task 4:
 
@@ -85,55 +85,55 @@ Answer: Web Application Tests
 
 Deploy the machine and connect to the network
 <br/>
-Answer: No answer needed
+Answer: <u> No answer needed </u>
 
 ### Task 4.2:
 
 Create a new 'Basic Network Scan' targeting the deployed VM. What option can we set under 'BASIC' to set a time for this scan to run? This can be very useful when network congestion is an issue.
 <br/>
-Answer: Schedule
+Answer: <u> Schedule </u>
 
 ### Task 4.3:
 
 Under discovery set the scan to cover ports 1-65535. What is this type called?
 <br/>
-Answer: Port scan (all ports)
+Answer: <u> Port scan (all ports) </u>
 
 ### Task 4.4:
 
 As we are connected to the network via a VPN, it may be to our benefit to 'tone down' the scan a bit. What scan type can we change to under 'ADVANCED' for this lower bandwidth connection?
 <br/>
-Answer: Scan low bandwidth links
+Answer: <u> Scan low bandwidth links </u>
 
 ### Task 4.5:
 
 With these options set (other than the time to run) save and launch the scan.
 <br/>
-Answer: No answer needed
+Answer: <u> No answer needed </u>
 
 ### Task 4.6:
 
 After the scan completes, which 'Vulnerability' can we view the details of to see the open ports on this host?
 <br/>
-Answer: Nessus SYN scanner
+Answer: <u> Nessus SYN scanner </u>
 
 ### Task 4.7:
 
 There seems to be a chat server running on this machine, what port is it on?
 <br/>
-Answer: 6667
+Answer: <u> 6667 </u>
 
 ### Task 4.8:
 
 Looks like we have a medium level vulnerability relating to SSH, what is this vulnerability named?
 <br/>
-Answer: SSH Weak Algorithms Supported
+Answer: <u> SSH Weak Algorithms Supported </u>
 
 ### Task 4.9:
 
 What web server type and version is reported by Nessus?
 <br/>
-Answer: Apache/2.4.99
+Answer: <u> Apache/2.4.99 </u>
 
 ## Task 5:
 
@@ -142,7 +142,7 @@ Answer: Apache/2.4.99
 Add SMTP functionality into your Nessus install!
 An optional but awesome additional step, link your Nessus box up to an SMTP server via the Settings panel. Google provides this for free if you already have a Gmail account. Adding 2-factor authentication on your account and create an app password, then link Nessus to the Gmail SMTP server via these following settings: https://www.siteground.com/kb/google_free_smtp_server/
 <br/>
-Answer: No answer needed
+Answer: <u> No answer needed </u>
 
 ## Task 6:
 
@@ -150,40 +150,40 @@ Answer: No answer needed
 
 Run a web application scan against this new box.
 <br/>
-Answer: No answer needed
+Answer: <u> No answer needed </u>
 
 ### Task 6.2:
 
 What is the plugin id of the plugin that determines the HTTP server type and version?
 <br/>
-Answer: 10107
+Answer: <u> 10107 </u>
 
 ### Task 6.3:
 
 What authentication page is discovered by the scanner that transmits credentials in cleartext?
 <br/>
-Answer: /login.php
+Answer: <u> /login.php </u>
 
 ### Task 6.4:
 
 What is the file extension of the config backup?
 <br/>
-Answer: .bak
+Answer: <u> .bak </u>
 
 ### Task 6.5:
 
 Which directory contains example documents? (This will be in a php directory)
 <br/>
-Answer: /external/phpids/0.6/docs/examples/
+Answer: <u> /external/phpids/0.6/docs/examples/ </u>
 
 ### Task 6.6:
 
 What vulnerability is this application susceptible to that is associated with X-Frame-Options?
 <br/>
-Answer: ClickJacking
+Answer: <u> ClickJacking </u>
 
 ### Task 6.7:
 
 What version of php is the server using?
 <br/>
-Answer: 5.5.9-1ubuntu4.26
+Answer: <u> 5.5.9-1ubuntu4.26 </u>
