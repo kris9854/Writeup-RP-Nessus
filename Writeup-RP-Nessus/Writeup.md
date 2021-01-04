@@ -1,6 +1,6 @@
 # TryhackMe: RP:nessus Writeup
 
-Part Of COMPTIA PENTEST+ Path
+Part of tryhackme's "COMPTIA PENTEST+" path
 
 ## Task 1:
 
