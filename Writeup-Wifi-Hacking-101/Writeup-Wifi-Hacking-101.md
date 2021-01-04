@@ -32,8 +32,8 @@ Answer: --channel
 Answer: -w
 
 ## Aircrack-ng - Let's Get Cracking
-###What flag do we use to specify a BSSID to attack?
-Anser: -b
+### What flag do we use to specify a BSSID to attack?
+Answer: -b
 ### What flag do we use to specify a wordlist?
 Answer: -w
 ### How do we create a HCCAPX in order to use hashcat to crack the password?
