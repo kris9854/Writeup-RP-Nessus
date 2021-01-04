@@ -2,7 +2,7 @@
 Writeup of tryhacksme "wifihacking101" created by NinjaJc01
 writen by kris9854
 
-## The basics - An intro to WPA
+## 1 The basics - An intro to WPA
 
 ### What type of attack on the encryption can you perform on WPA(2) personal?
 Answer: brute force
@@ -13,7 +13,7 @@ Answer: PSK
 ### What's the minimum length of a WPA2 Personal password?
 Answer: 8
 
-## You're being watched - Capturing packets to attack
+## 2 You're being watched - Capturing packets to attack
 
 ### How do you put the interface “wlan0” into monitor mode with Aircrack tools? (Full command)
 Answer: airmon-ng wlan0 start
@@ -31,7 +31,7 @@ Answer: --channel
 ### And how do you tell it to capture packets to a file?
 Answer: -w
 
-## Aircrack-ng - Let's Get Cracking
+## 3 Aircrack-ng - Let's Get Cracking
 ### What flag do we use to specify a BSSID to attack?
 Answer: -b
 ### What flag do we use to specify a wordlist?
