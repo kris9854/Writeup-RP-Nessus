@@ -163,17 +163,17 @@ Answer: XML prolog
 ### 14.1
 How do you define a new ELEMENT?
 <br/>
-Answer:
+Answer: !ELEMENT
 
 ### 14.2
 How do you define a ROOT element?
 <br/>
-Answer:
+Answer: !DOCTYPE
 
 ### 14.3
 How do you define a new ENTITY?
 <br/>
-Answer:
+Answer: !ENTITY
 
 ## Task 15: [Severity 4] XML External Entity - XXE Payload
 Just Reading
