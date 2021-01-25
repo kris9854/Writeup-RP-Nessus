@@ -11,11 +11,9 @@ Just Reading
 Just Reading
 
 ## Task 3: [Severity 1] Injection
-
 Just Reading
 
 ## Task 4: [Severity 1] OS Command Injection
-
 Just Reading
 
 ## Task 5: [Severity 1] Command Injection Practical
@@ -76,9 +74,10 @@ Just Reading
 ### 7.1
 What is the flag that you found in darren's account?
 <br/>
-Command: 
+Command: Created user " darren"
 <br/>
-Answer:
+Answer: fe86079416a21a3c99937fea8874b667
+
 ### 7.2
 Now try to do the same trick and see if you can login as arthur.
 <br/>
@@ -87,7 +86,9 @@ Answer: NULL
 ### 7.3
 What is the flag that you found in arthur's account?
 <br/>
-Answer: 
+Command: Created user " arthur"
+<br/>
+Answer:d9ac0f7db4fda460ac3edeb75d75e16e
 
 ## Task 8: [Severity 3] Sensitive Data Exposure (Introduction)
 Just Reading
