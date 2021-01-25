@@ -103,37 +103,38 @@ Just Reading
 ### 11.1
 What is the name of the mentioned directory?
 <br/>
-Command:
+Command: dirb http://machineIP/ /usr/share/wordlists/dirb/big.txt 
+
 <br/>
-Answer:
+Answer: /assets
 
 ### 11.2
 Navigate to the directory you found in question one. What file stands out as being likely to contain sensitive data?
 <br/>
-Command:
+Command: machineIP/assets
 <br/>
-Answer:
+Answer: webapp.db
 
 ### 11.3
 Use the supporting material to access the sensitive data. What is the password hash of the admin user?
 <br/>
-Command:
+Command: sqllite3 doing a table dump with .table
 <br/>
-Answer:
+Answer: 6eea9b7ef19179a06954edd0f6c05ceb
 
 ### 11.4
 What is the admin's plaintext password?
 <br/>
-Command:
+Command: crackstation website
 <br/>
-Answer:
+Answer: qwertyuiop
 
 ### 11.5
 Login as the admin. What is the flag?
 <br/>
-Command:
+Command: machineIP/login 
 <br/>
-Answer:
+Answer: THM{Yzc2YjdkMjE5N2VjMzNhOTE3NjdiMjdl}
 
 ## Task 12: [Severity 4] XML External Entity
 Just Reading and deploying machine
