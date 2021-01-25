@@ -1,6 +1,6 @@
 # TryhackMe: OWASP Top 10
 
-Part of tryhackme's "Complete Beginner" path
+Part of tryhackme's "Complete Beginner" path, and Web Hacking Fundamentals module.
 
 ## Task 1: Introduction
 
@@ -69,7 +69,6 @@ Command: cat /etc/update-motd.d/00-header
 Answer: DR PEPPER
 
 ## Task 6: [Severity 2] Broken Authentication
-
 Just Reading
 
 ## Task 7: [Severity 2] Broken Authentication Practical
@@ -279,7 +278,7 @@ What type of attack that crashes services can be performed with insecure deseria
 Answer:
 
 ## Task 22: [Severity 8] Insecure Deserialization - Objects
-## 22.1
+### 22.1
 if a dog was sleeping, would this be:
 <br/>
 A) A State
@@ -304,6 +303,7 @@ Answer:
 What is the acronym for the web technology that Secure cookies work over?
 <br/>
 Answer:
+
 ## Task 25: [Severity 8] Insecure Deserialization - Cookies Practical
 ### 25.1
 1st flag (cookie value)
@@ -314,11 +314,13 @@ Answer:
 2nd flag (admin dashboard)
 <br/>
 Answer:
+
 ## Task 26: [Severity 8] Insecure Deserialization - Code Execution
 ### 26.1
 flag.txt
 <br/>
 Answer:
+
 ## Task 27:  [Severity 9] Components With Known Vulnerabilities - Intro
 Just Reading
 ## Task 28: [Severity 9] Components With Known Vulnerabilities - Exploit
@@ -328,6 +330,7 @@ Just Reading
 How many characters are in /etc/passwd (use wc -c /etc/passwd to get the answer)
 <br/>
 Answer:
+
 ## Task 30: [Severity 10] Insufficient Logging and Monitoring
 ### 30.1
 What IP address is the attacker using?
@@ -337,6 +340,7 @@ What IP address is the attacker using?
 What kind of attack is being carried out?
 <br/>
 Answer: brute force
+
 ## Task 31: What Next? 
 Just Reading
 
