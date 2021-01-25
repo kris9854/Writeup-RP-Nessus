@@ -142,7 +142,7 @@ Just Reading and deploying machine
 ### 13.1
 Full form of XML
 <br/>
-Answer:
+Answer: eXtensible Markup Language
 
 ### 13.2
 Is it compulsory to have XML prolog in XML documents?
@@ -152,12 +152,12 @@ Answer: no
 ### 13.3
 Can we validate XML documents against a schema?
 <br/>
-Answer:
+Answer: yes
 
 ### 13.4
 How can we specify XML version and encoding in XML document?
 <br/>
-Answer:
+Answer: XML prolog
 
 ## Task 14: [Severity 4] XML External Entity - DTD
 ### 14.1
