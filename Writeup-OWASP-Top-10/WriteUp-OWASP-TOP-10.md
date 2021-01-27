@@ -325,29 +325,33 @@ Answer: binary
 ### 24.1
 If a cookie had the path of webapp.com/login , what would the URL that the user has to visit be?
 <br/>
-Answer:
+Answer: webapp.com/login
 
 ### 24.2
 What is the acronym for the web technology that Secure cookies work over?
 <br/>
-Answer:
+Answer: HTTPS
 
 ## Task 25: [Severity 8] Insecure Deserialization - Cookies Practical
 ### 25.1
 1st flag (cookie value)
 <br/>
-Answer:
+Decode the cookie named sessionID using a base64 decoder
+<br/>
+Answer: THM{good_old_base64_huh}
 
 ### 25.2
 2nd flag (admin dashboard)
 <br/>
-Answer:
+Change the usertype cookie's value to admin and access machineIp/admin page
+<br/>
+Answer: THM{heres_the_admin_flag} 
 
 ## Task 26: [Severity 8] Insecure Deserialization - Code Execution
 ### 26.1
 flag.txt
 <br/>
-Answer:
+Answer: 4a69a7ff9fd68
 
 ## Task 27:  [Severity 9] Components With Known Vulnerabilities - Intro
 Just Reading
@@ -363,6 +367,9 @@ Answer:
 ### 30.1
 What IP address is the attacker using?
 <br/>
+Look through the .txt log and look for Unauthorised login attempts
+<br/>
+Answer: 49.99.13.16
 
 ### 30.2
 What kind of attack is being carried out?
