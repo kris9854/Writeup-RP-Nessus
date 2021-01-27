@@ -271,7 +271,7 @@ Answer: ReflectiveXss4TheWin
 ### 20.4
 Then add a comment and see if you can insert some of your own HTML.
 <br/>
-Command: (<script>document.writeln(<title>Page Title</title>) </script>)
+Using tags and a base for the html injection (plain html)
 <br/>
 Answer: HTML_T4gs
 
@@ -292,12 +292,16 @@ Answer:  websites_can_be_easily_defaced_with_xss
 ### 21.1
 Who developed the Tomcat application?
 <br/>
-Answer: 
+A quick google search. Revealing the organization behind the software
+<br/>
+Answer: The Apache Software Foundation
 
 ### 21.2
 What type of attack that crashes services can be performed with insecure deserialization?
 <br/>
-Answer:
+Found in the readin material provided
+<br/>
+Answer: Denial of Service
 
 ## Task 22: [Severity 8] Insecure Deserialization - Objects
 ### 22.1
@@ -313,7 +317,9 @@ Answer: A Behaviour
 ### 23.1
 What is the name of the base-2 formatting that data is sent across a network as? 
 <br/>
-Answer:
+Google search base-2
+<br/>
+Answer: binary
 
 ## Task 24: [Severity 8] Insecure Deserialization - Cookies
 ### 24.1
